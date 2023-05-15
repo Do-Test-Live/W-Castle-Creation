@@ -1,0 +1,358 @@
+@font-face {
+    font-family: 'OpenSans';
+    src: url("../fonts/OpenSans.woff2");
+}
+
+@font-face {
+    font-family: 'NotoSans';
+    src: url("../fonts/NotoSans.otf");
+}
+
+.regen-menu-link{
+    color: #000000;
+    font-weight: 300;
+    font-family: "NotoSans",sans-serif;
+}
+
+.regen-nav-btn{
+    background: #eeeeee;
+    color: #042c58;
+    width: 250px;
+    text-align: center;
+    padding: 25px 30px 25px 30px;
+    border-radius: 20px 0 0 0;
+    font-size: 30px;
+    border-left: 10px solid #ccc;
+    font-family: "NotoSans",sans-serif;
+    margin-right: -11px;
+    font-weight: bold;
+}
+
+.regen-nav-btn:hover{
+    background: #000000;
+    color: #ffffff;
+    border-left: 10px solid #ccc;
+}
+
+.navbar{
+    padding: 0;
+    margin: 0;
+}
+
+.regen-diamond{
+    width: 100%;
+    height: 100%;
+    background: url("../images/background/diamond_img.jpg") no-repeat center top;
+}
+
+.regen-content-title{
+    margin-bottom: 15px;
+    letter-spacing: 6px;
+    font-family: 'NotoSans', sans-serif;
+    font-size: 48px;
+    color: #f9b3b1;
+    line-height: 60px;
+}
+
+.regen-content-title-2{
+    margin-bottom: 15px;
+    letter-spacing: 6px;
+    font-family: 'NotoSans', sans-serif;
+    font-size: 40px;
+    color: #f9b3b1;
+    line-height: 60px;
+}
+
+.regen-content-paragraph{
+    color: #042c58;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 300;
+    font-family: 'NotoSans', sans-serif;
+}
+
+.regen-content-paragraph-blue{
+    color: #042c58;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 300;
+    font-family: 'NotoSans', sans-serif;
+}
+
+.regen-color-pink{
+    color: #e686ab;
+}
+
+.regen-color-orange{
+    color: #d7a161;
+}
+
+.regen-color-purple{
+    color: #8079cd;
+}
+
+.regen-color-blue{
+    color: #649cde;
+}
+
+.regen-service{
+    background: url("../images/background/bg01.jpg") no-repeat center top;
+}
+
+.regen-service-image{
+    background: url("../images/service/service_bg.jpg") no-repeat center bottom;
+}
+
+.regen-service-card-title{
+    letter-spacing: 6px;
+    font-size: 30px;
+    color: #f697ba;
+    line-height: 60px;
+}
+
+.regen-treatment-card-1{
+    background: url("../images/treatment/treatment01.jpg") no-repeat center;
+}
+
+.regen-treatment-card-2{
+    background: url("../images/treatment/treatment02.jpg") no-repeat center;
+}
+
+.regen-treatment-card-3{
+    background: url("../images/treatment/treatment03.jpg") no-repeat center;
+}
+
+.regen-treatment-card-4{
+    background: url("../images/treatment/treatment04.jpg") no-repeat center;
+}
+
+.regen-treatment-card-title{
+    color: #9ca2b0;
+    font-size: 28px;
+    line-height: 44px;
+    font-family: 'NotoSans',sans-serif;
+}
+
+.regen-treatment-card-title-1{
+    font-size: 28px;
+    font-weight: 300;
+    color: #f58ab7;
+    font-family: 'NotoSans',sans-serif;
+}
+
+.regen-treatment-card-title-2{
+    font-size: 28px;
+    font-weight: 300;
+    color: #fba787;
+    font-family: 'NotoSans',sans-serif;
+}
+
+.regen-treatment-card-title-3{
+    font-size: 28px;
+    font-weight: 300;
+    color: #4792c5;
+    font-family: 'NotoSans',sans-serif;
+}
+
+.regen-treatment-card-title-4{
+    font-size: 28px;
+    font-weight: 300;
+    color: #e39440;
+    font-family: 'NotoSans',sans-serif;
+}
+
+.regen-treatment-btn{
+    font-size: 18px;
+    color: #042c58 !important;
+    background: none;
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 36px;
+    letter-spacing: 3px;
+    margin-top: 3%;
+    border: 1px solid #042c58;
+    border-radius: unset;
+}
+
+.regen-treatment-btn:hover{
+    background: #042c58;
+    color: #fff !important;
+}
+
+.regen-contact{
+    background: url("../images/background/bg02.jpg") no-repeat center;
+}
+
+.regen-footer{
+    background: #b1b3b6;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: unset;
+    top: 37%;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: left;
+}
+
+.regen-content-title-number{
+    font-size: 65px;
+}
+
+.regen-banner-title{
+    font-size: 4.5vw;
+    line-height: 4.5vw;
+    letter-spacing: 3.5vw;
+    color: #e2d9d8;
+    text-shadow: 2px 2px 3px rgb(167 133 145 / 82%), -2px -2px 2px rgb(255 255 255 / 50%), 0 0 35px #fff, 0 0 35px #fff, 0 0 35px #fff;
+}
+
+.regen-banner-caption{
+    font-size: 2.5vw;
+    line-height: 3.4vw;
+    letter-spacing: 1.2vw;
+    color: #b0afb0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.2), -2px -2px 2px rgb(255 255 255 / 50%), 0 0 35px #fff, 0 0 35px #fff, 0 0 35px #fff, 0 0 35px #fff, 0 0 35px #fff, 0 0 35px #fff, 0 0 35px #fff;
+    margin-top: 0.9vw;
+}
+
+
+.regen-fixed-button{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+.whats-app-desktop{
+    width: 200px;
+}
+
+.whats-app-mobile{
+    width: 60px;
+}
+
+.regen-card{
+    background: rgba(255, 255, 255, 0.42);
+}
+
+.regen-copyright{
+    font-family: 'NotoSans',sans-serif;
+}
+
+@media only screen and (max-width: 550px) {
+    .regen-content-title{
+        font-size: 26px;
+        font-weight: 300;
+        line-height: 25px;
+        letter-spacing: 2px;
+    }
+    .regen-content-title-2{
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 25px;
+        letter-spacing: 2px;
+    }
+
+    .regen-content-title-number{
+        font-size: 45px;
+        font-family: 'NotoSans',sans-serif;
+    }
+
+    .regen-content-paragraph{
+        color: #042c58;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 23px;
+    }
+
+    .regen-content-paragraph-blue{
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 23px;
+    }
+
+    .regen-service-card-title{
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: 2px;
+    }
+
+    .regen-treatment-card-1 {
+        background-size: cover;
+    }
+
+    .regen-treatment-card-2 {
+        background-size: cover;
+    }
+
+    .service-icon{
+        height: 50px;
+    }
+
+    .regen-treatment-card-3 {
+        background-size: cover;
+    }
+
+    .regen-treatment-card-4 {
+        background-size: cover;
+    }
+
+    .regen-treatment-card-title{
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .regen-treatment-card-title-1{
+        font-size: 18px;
+    }
+
+    .regen-treatment-card-title-2{
+        font-size: 18px;
+    }
+
+    .regen-treatment-card-title-3{
+        font-size: 18px;
+    }
+
+    .regen-treatment-card-title-4{
+        font-size: 18px;
+    }
+
+    .regen-treatment-btn{
+        font-size: 16px;
+        padding: 0 20px;
+        line-height: 36px;
+    }
+
+    .regen-contact{
+        background-size: cover;
+    }
+
+    .regen-copyright{
+        font-size: 12px;
+        text-align: center;
+        font-family: 'NotoSans',sans-serif;
+    }
+
+    .regen-fixed-button{
+        position: fixed;
+        bottom: 15px;
+        right: 15px;
+    }
+
+    .regen-diamond {
+        background-size: contain;
+    }
+
+    .regen-service {
+        background-size: cover;
+    }
+}
+
+.social-icon{
+    font-size: 23px;
+}
