@@ -206,7 +206,7 @@
 .regen-banner-title{
     font-size: 4.5vw;
     line-height: 4.5vw;
-    letter-spacing: 3.5vw;
+    letter-spacing: 0.5vw;
     color: #e2d9d8;
     text-shadow: 2px 2px 3px rgb(167 133 145 / 82%), -2px -2px 2px rgb(255 255 255 / 50%), 0 0 35px #fff, 0 0 35px #fff, 0 0 35px #fff;
 }
